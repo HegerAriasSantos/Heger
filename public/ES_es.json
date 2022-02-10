@@ -44,7 +44,7 @@
     "title": "Proyectos destacados",
     "projects": [
       {
-        "slug": "teacher reviewer",
+        "slug": "teacher_reviewer",
         "title": "Revisor de profesores",
         "type": "Aplicación Web",
         "description": "Construí esto junto con un colega de la universidad para satisfacer la falta que teníamos de una página para saber qué profesores eran los adecuados para nosotros debido a su metodología. Fue creado con tecnologías como: Next, GraphQL , MongoDB, Google Auth2, JWT, Tailwind, donde puedes iniciar sesión con google, buscar cualquier profesor de mi universidad, votar, comentar y muchas cosas más.",

@@ -57,7 +57,7 @@ export const getStaticProps: GetStaticProps = async context => {
   };
 };
 export const getStaticPaths = () => {
-  const arr: string[] = ['teacher reveiwer', 'chatapp', 'todo', 'noteapp', "tictactoe"];
+  const arr: string[] = ['teacher_reviewer', 'chatapp', 'todo', 'noteapp', "tictactoe"];
   const paths = arr.map((slug) => {
     return { params: { slug } }
   });

@@ -44,7 +44,7 @@
     "title": "Featured Projects",
     "projects": [
       {
-        "slug": "teacher reviewer",
+        "slug": "teacher_reviewer",
         "title": "Teacher Reviewer",
         "type": "Web Aplication",
         "description": "I built this together with a colleague from the university to satisfy the lack we had of a page to know which professors were the right ones for us due to their methodology. It was created with tecnologies such as: Next, GraphQL, MongoDB, Google Auth2, JWT, Tailwind. Where you can Sign in with google, look for a anyteacher in my university, vote, comment, and a lot of things more.",

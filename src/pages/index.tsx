@@ -7,7 +7,6 @@ import HomeHero from '../components/HomeHero';
 import Education from '../components/Education';
 import Projects from '../components/Projects';
 import Tecnologies from '../components/Tecnologies';
-import FormContato from '../components/FormContato';
 import Footer from '../components/Footer';
 import { ProjectsContext } from '../contexts';
 import 'aos/dist/aos.css';
@@ -42,7 +41,6 @@ export default function Home() {
         <Education />
         <Projects projects={projects} />
         <Tecnologies />
-        <FormContato />
         <Footer />
       </main>
     </HomeContainer>
