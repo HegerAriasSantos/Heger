@@ -26,7 +26,7 @@ function HomeHero() {
           <CodeItem data-aos="zoom-in">
             <span className="purple">{homeHero.Code2.title}</span> {'\u007B'}
             <div>
-              {homeHero.Code2.occupation[0]} <span className="blue">{homeHero.Code2.occupation[0]},</span>
+              {homeHero.Code2.occupation[0]}: <span className="blue">{homeHero.Code2.occupation[0]},</span>
             </div>
             <div>
               {homeHero.Code2.specialty[0]}: <span className="blue">{homeHero.Code2.specialty[0]}</span>
