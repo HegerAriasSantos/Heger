@@ -12,13 +12,9 @@ interface ProviderProps {
   children: ReactNode
 }
 
-interface IObject {
-  [key: string]: {}
-}
-
 interface ILanguageContext {
   language: string;
-  dictionary: IObject;
+  dictionary: any;
   changeLanguage: Function;
 }
 
