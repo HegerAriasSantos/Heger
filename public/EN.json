@@ -1,0 +1,114 @@
+{
+  "header": ["Home", "Projects", "Change Language to spanish"],
+  "homeHero": {
+    "h1": "Hi!",
+    "h2": "Welcome to my website",
+    "Code1": {
+      "title": "Personal Information",
+      "name": ["Name:", "Heger"],
+      "lastName": ["Last Name:", "Arias Santos"]
+    },
+    "Code2": {
+      "title": "Professional information",
+      "occupation": ["Occupation", "Software Engineer"],
+      "specialty": ["Specialty", "[ Front-End, Back-End ]"]
+    }
+  },
+  "education": {
+    "title": "Education",
+    "subTitle": "Bootcamps and more",
+    "cards": [
+      {
+        "year": "2020 - 2021",
+        "title": "Platzi",
+        "description": "I do the web development school in this platform, where learned Fundamentals HTML, CSS, Javascript also React and Node"
+      },
+      {
+        "year": "2021 - 2023",
+        "title": "ITLA",
+        "description": "It's the most prestigious institute in my country in terms of technology and here I took the software development technology"
+      },
+      {
+        "year": "2022",
+        "title": "FreeCodeCamp",
+        "description": "I decided to take a few bootcamps on this platform because of its prestige and took 'Web Responsive Design', 'Javascript Algorithms and Data Structures' and 'Backend Development and Apis'"
+      },
+      {
+        "year": "2019 - Present",
+        "title": "self-taught",
+        "description": "I'm a person who loves learning new technologies and doing projects with said technologies."
+      }
+    ]
+  },
+  "projectsPage": {
+    "title": "Featured Projects",
+    "projects": [
+      {
+        "slug": "teacher reviewer",
+        "title": "Teacher Reviewer",
+        "type": "Web Aplication",
+        "description": "I built this together with a colleague from the university to satisfy the lack we had of a page to know which professors were the right ones for us due to their methodology. It was created with tecnologies such as: Next, GraphQL, MongoDB, Google Auth2, JWT, Tailwind. Where you can Sign in with google, look for a anyteacher in my university, vote, comment, and a lot of things more.",
+        "link": "https://teacher-reviewer.vercel.app",
+        "thumbnail": "https://i.imgur.com/Ypl65Ol.jpg",
+        "repository": "https://github.com/HegerAriasSantos/teacher-reviewer",
+        "repositoryText": "See the code",
+        "linkText": "Watch online"
+      },
+      {
+        "slug": "chatapp",
+        "title": "ChatApp",
+        "type": "Web Aplication",
+        "description": "I built this for learn how the realtime accions works. It was created with tecnologies such as: React, Express, MongoDB, Bcrypt, JWT. Where you can send messages, send images, watch the galery, create diferrent chat channel, you have to create a account for get in the app, and a lot of things more.",
+        "link": "https://heger-chat-frontend.vercel.app",
+        "thumbnail": "https://i.imgur.com/POIKHLR.jpg",
+        "repository": "https://github.com/HegerAriasSantos/Heger_Chat--frontend",
+        "repositoryText": "See the code",
+        "linkText": "Watch online"
+      },
+      {
+        "slug": "todo",
+        "title": "PERN STACK TODO",
+        "type": "Web Aplication",
+        "description": "I built this for learn PERN stack fundamentals. It was created with tecnologies such as: React, PostgreSQL, Tailwind, Express and GraphQL. Where you can create a note, delete it, modify it, and a lot of things more.",
+        "link": "https://github.com/HegerAriasSantos/PERN-graphql",
+        "thumbnail": "https://i.imgur.com/IjYElMX.jpg",
+        "repository": "https://github.com/HegerAriasSantos/PERN-graphql",
+        "repositoryText": "See the code",
+        "linkText": "Watch online"
+      },
+      {
+        "slug": "noteapp",
+        "title": "NoteApp",
+        "type": "Web Aplication",
+        "description": "I built this for learn React fundamentals. It was created with tecnologies such as: React, sass and localstorage. Where you can create a note, delete it, modify it, and a lot of things more.",
+        "link": "https://heger-note-app.herokuapp.com",
+        "thumbnail": "https://i.imgur.com/b0qaWVU.jpg",
+        "repository": "https://github.com/HegerAriasSantos/Note-app",
+        "repositoryText": "See the code",
+        "linkText": "Watch online"
+      },
+      {
+        "slug": "tictactoe",
+        "title": "Tic Tac Toe",
+        "type": "Web Aplication",
+        "description": "I built this for learn how to create a game :3. It was created with React. Where you Play the fomouse game Tic Tac Toe.",
+        "link": "https://tic-tac-toe-12.herokuapp.com/",
+        "thumbnail": "https://i.imgur.com/vPfrxtD.jpg",
+        "repository": "https://github.com/HegerAriasSantos/Tic-Tac-Toe",
+        "repositoryText": "See the code",
+        "linkText": "Watch online"
+      }
+    ]
+  },
+  "tecnologies": "Tecnologies",
+  "contact": {
+    "title": "Contact me",
+    "description": "If you want me to build something for you, hire me",
+    "name": "Name",
+    "e-mail": "E-mail",
+    "message": "Message"
+  },
+  "footer": {
+    "top": "Go to top"
+  }
+}
