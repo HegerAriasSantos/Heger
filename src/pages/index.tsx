@@ -1,5 +1,4 @@
 import { useEffect } from 'react';
-import Aos from 'aos';
 import Head from 'next/head';
 import { HomeContainer } from '../styles/HomeStyles';
 import Header from '../components/Header';
@@ -10,6 +9,7 @@ import Tecnologies from '../components/Tecnologies';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 import { ProjectsContext } from '../contexts';
+import Aos from 'aos';
 import 'aos/dist/aos.css';
 
 export default function Home() {

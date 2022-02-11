@@ -1,15 +1,9 @@
-import { AiOutlineGithub, AiFillLinkedin } from 'react-icons/ai';
 import { RiArrowUpCircleFill } from 'react-icons/ri';
-import ConhecimentoItem from '../Tecnologies/Tecnologies';
+import TecnologieItem from '../Tecnologies/Tecnologies';
 import { Container } from './styles';
 
 function Footer() {
-  function handleRedirect(url: string) {
-    window.open(url);
-  }
-
-
-  function handleScrollTop() {
+  const handleScrollTop = () => {
     window.scroll({
       top: 0,
       behavior: 'smooth'
@@ -19,7 +13,7 @@ function Footer() {
   return (
     <Container>
       <div>
-        <ConhecimentoItem title={""} icon={<RiArrowUpCircleFill onClick={handleScrollTop} />} />
+        <TecnologieItem title={""} icon={<RiArrowUpCircleFill onClick={handleScrollTop} />} />
       </div>
     </Container>
   );

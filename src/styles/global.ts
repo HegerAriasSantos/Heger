@@ -22,7 +22,7 @@ export default createGlobalStyle`
   }
 // background: ${props => props.theme.background};
   body {
-    background-image: url('/fundo.png');
+    background-image: url('/Background.png');
     width: 100%;
     height: 100vh;
     background-size: cover;

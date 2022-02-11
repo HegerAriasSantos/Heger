@@ -10,8 +10,8 @@
     },
     "Code2": {
       "title": "Informacion profesional",
-      "occupation": ["Ocupacion", "Ingeniero de software"],
-      "specialty": ["Especialidad", "[ Front-End, Back-End ]"]
+      "occupation": ["Ocupacion", "Desarrollador de software"],
+      "specialty": ["Especialidad", "FullStack"]
     }
   },
   "education": {

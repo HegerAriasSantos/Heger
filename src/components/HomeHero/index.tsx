@@ -1,4 +1,3 @@
-/* eslint-disable react/jsx-no-comment-textnodes */
 import { LanguageContext } from '../../contexts';
 import { Container, TextContainer, InfosContainer, CodeItem } from './styles';
 
@@ -6,7 +5,7 @@ function HomeHero() {
   const { dictionary: { homeHero } } = LanguageContext.useContext();
   return (
     <Container data-aos="fade-up">
-      <img src="https://i.imgur.com/pLbxazs.jpg" alt="Minha foto" />
+      <img src="https://i.imgur.com/pLbxazs.jpg" alt="Computer photo" />
       <div>
         <TextContainer>
           <h1>{homeHero.h1}</h1>

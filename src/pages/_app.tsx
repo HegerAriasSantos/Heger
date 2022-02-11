@@ -10,7 +10,6 @@ function MyApp({ Component, pageProps }) {
   return (
     <ProjectsContext.Provider>
       <LanguageContext.Provider>
-
         <ThemeProvider theme={theme}>
           <NextNprogress
             color={theme.primary}
@@ -19,7 +18,6 @@ function MyApp({ Component, pageProps }) {
             height={3}
             showOnShallow
           />
-
           <Toaster position="bottom-right" />
           <Component {...pageProps} />
           <GlobalStyles />

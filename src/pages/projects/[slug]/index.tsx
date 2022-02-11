@@ -1,11 +1,11 @@
-import { GetStaticProps, GetStaticPaths } from 'next';
+import { GetStaticProps } from 'next';
 import { useRouter } from 'next/router';
+import { ProjectContainer } from '../../../styles/ProjectStyles';
+import { LanguageContext } from '../../../contexts';
 import Head from 'next/head';
 import ProjectBanner from '../../../components/ProjectBanner';
 import Header from '../../../components/Header';
-import { ProjectContainer } from '../../../styles/ProjectStyles';
 import LoadingScreen from '../../../components/LoadingScreen';
-import { LanguageContext } from '../../../contexts';
 
 export default function Projeto({ slug }: { slug: string }) {
   const router = useRouter();

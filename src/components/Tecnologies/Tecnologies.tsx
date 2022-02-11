@@ -1,16 +1,16 @@
 import { ReactNode } from 'react';
-import { ConhecimentoContainer } from './styles';
+import { TecnologieContainer } from './styles';
 
-interface ConhecimentoProps {
+interface TecnologieProps {
   title: string;
   icon: ReactNode;
 }
 
-export default function ConhecimentoItem({ title, icon }: ConhecimentoProps) {
+export default function TecnologieItem({ title, icon }: TecnologieProps) {
   return (
-    <ConhecimentoContainer data-aos="fade-up">
+    <TecnologieContainer data-aos="fade-up">
       <p>{title}</p>
       {icon}
-    </ConhecimentoContainer>
+    </TecnologieContainer>
   );
 }
