@@ -4,6 +4,7 @@ import { HomeContainer } from '../styles/HomeStyles';
 import Header from '../components/Header';
 import HomeHero from '../components/HomeHero';
 import Education from '../components/Education';
+import Experience from '../components/Experience';
 import Projects from '../components/Projects';
 import Tecnologies from '../components/Tecnologies';
 import Contact from '../components/Contact';
@@ -40,6 +41,7 @@ export default function Home() {
       <main className="container">
         <HomeHero />
         <Education />
+        <Experience />
         <Projects projects={projects} />
         <Tecnologies />
         <Contact />

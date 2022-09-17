@@ -12,31 +12,48 @@
       "title": "Informacion profesional",
       "occupation": ["Ocupacion", "Desarrollador de software"],
       "specialty": ["Especialidad", "FullStack"]
-    }
+    },
+    "Cv": "Ver CV"
   },
   "education": {
     "title": "Educacion",
     "subTitle": "He realizado Bootcamps y mas...",
     "cards": [
       {
-        "year": "2020 - 2021",
+        "year": "Junio 2020 - Junio 2021",
         "title": "Platzi",
         "description": "Realice la escuela de desarrollo web en esta plataforma, donde aprendí Fundamentos HTML, CSS, Javascript también React y Node"
       },
       {
-        "year": "2021 - 2023",
+        "year": "Enero 2021 - Septiembre 2023",
         "title": "ITLA",
         "description": "Es el instituto más prestigioso de mi país en cuanto a tecnología y ahí tomé la tecnología de desarrollo de software"
       },
       {
-        "year": "2022",
+        "year": "Septiembre 2021 - Febrero 2022",
         "title": "FreeCodeCamp",
         "description": "Decidí tomar algunos bootcamps en esta plataforma debido a su prestigio y tomé 'Web Responsive Design', 'Javascript Algorithms and Data Structures' y 'Backend Development and Apis'"
       },
       {
-        "year": "2019 - Present",
+        "year": "Enero 2019 - Present",
         "title": "self-taught",
         "description": "Soy una persona a la que le encanta aprender nuevas tecnologías y hacer proyectos con dichas tecnologías"
+      }
+    ]
+  },
+  "experience": {
+    "title": "Experiencia",
+    "subTitle": "He trabajado tanto como freelancer como en empresas",
+    "cards": [
+      {
+        "year": " Febrero 2021  -  Present",
+        "title": "Freelancer",
+        "description": "He realizado varios proyectos freelancer, desde sitios web hasta aplicaciones de escritorio e incluso algoritmos de inteligencia artificial"
+      },
+      {
+        "year": " Enero 2022 -  Septiembre 2022",
+        "title": "Caona interactive",
+        "description": "Trabaje en diferentes proyectos con diferentes equipos de trabajo, en los cuales aprendí a trabajar en equipo y a comunicarme con los demás, ademas participe en proyectos desde maquetación hasta grandes proyectos de transacciones financieras"
       }
     ]
   },

@@ -1,16 +1,16 @@
 import { ItemContainer } from './styles';
 
-interface ExperienciaProps {
+interface ExperienceProps {
   year: string;
   title: string;
   description: string;
 }
 
-export default function ExperienciaItem({
+export default function ExperienceItem({
   year,
   title,
   description
-}: ExperienciaProps) {
+}: ExperienceProps) {
   return (
     <ItemContainer data-aos="fade-up">
       <div>

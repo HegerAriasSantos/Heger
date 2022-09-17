@@ -8,6 +8,32 @@ export const Container = styled.section`
   justify-content: center;
   margin-top: 5rem;
 
+  > div > button {
+    background: ${({ theme }) => theme.gradiente};
+    margin-top: 2rem;
+    padding: 0.5rem 2rem;
+    border-radius: 0.5rem;
+    border: none;
+    transition: 0.5s;
+
+    &:hover {
+      background: ${({ theme }) => theme.gradientr};
+    }
+
+    a {
+      text-transform: uppercase;
+      color: #fff;
+      font-size: 1.5rem;
+      font-weight: 300;
+    }
+
+    @media (max-width: 500px) {
+      padding: 1rem;
+      a {
+        font-size: 1rem;
+      }
+    }
+  }
   > img {
     width: 40rem;
     flex: 1;

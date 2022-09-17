@@ -12,36 +12,53 @@
       "title": "Professional information",
       "occupation": ["Occupation", "Software developer"],
       "specialty": ["Specialty", "FullStack"]
-    }
+    },
+    "Cv": "Look CV"
   },
   "education": {
     "title": "Education",
     "subTitle": "Bootcamps and more",
     "cards": [
       {
-        "year": "2020 - 2021",
+        "year": "June 2020 - June 2021",
         "title": "Platzi",
         "description": "I do the web development school in this platform, where learned Fundamentals HTML, CSS, Javascript also React and Node"
       },
       {
-        "year": "2021 - 2023",
+        "year": "Jenuary 2021 - September 2023",
         "title": "ITLA",
         "description": "It's the most prestigious institute in my country in terms of technology and here I took the software development technology"
       },
       {
-        "year": "2022",
+        "year": "September 2021 - Febrary 2022",
         "title": "FreeCodeCamp",
         "description": "I decided to take a few bootcamps on this platform because of its prestige and took 'Web Responsive Design', 'Javascript Algorithms and Data Structures' and 'Backend Development and Apis'"
       },
       {
-        "year": "2019 - Present",
+        "year": "Jenuary 2019 - Present",
         "title": "self-taught",
         "description": "I'm a person who loves learning new technologies and doing projects with said technologies."
       }
     ]
   },
+  "experience": {
+    "title": "Experience",
+    "subTitle": "I have worked both as a freelancer and in companies",
+    "cards": [
+      {
+        "year": "February 2021  -  Present",
+        "title": "Freelancer",
+        "description": "I have done several freelancer projects, from websites to desktop applications and even artificial intelligence algorithms"
+      },
+      {
+        "year": "January 2022 -  September 2022",
+        "title": "Caona interactive",
+        "description": "I worked on different projects with different work teams, in which I learned to work as a team and to communicate with others, I also participated in projects from layout to large financial transaction projects"
+      }
+    ]
+  },
   "projectsPage": {
-    "title": "Featured Projects",
+    "title": "Featured Personal Projects",
     "projects": [
       {
         "slug": "teacher_reviewer",

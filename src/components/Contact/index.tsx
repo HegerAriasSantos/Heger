@@ -24,8 +24,11 @@ function FormContato() {
         <a href="https://github.com/HegerAriasSantos" target="_blank">
           <TecnologieItem title="Github" icon={<RiGithubFill />} />
         </a>
-        <a href="https://www.linkedin.com/in/hegel-arias-santos-9a11661b4/" target="_blank">
+        <a href="https://www.linkedin.com/in/heger-arias-santos/" target="_blank">
           <TecnologieItem title="Linkedin" icon={<RiLinkedinBoxFill />} />
+        </a>
+        <a href="mailto:hegel.0218@gmail.com" target="_blank">
+          <TecnologieItem title="Gmail" icon={<RiMailFill />} />
         </a>
       </section>
     </Container >
