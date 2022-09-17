@@ -33,25 +33,12 @@ const LanguageContext = createContext<ILanguageContext>({
 
 const useContext = () => React.useContext(LanguageContext);
 
-const getLanguageStoraged = () => {
-  if (typeof window !== "undefined" && window.localStorage) {
-    const storedPrefs = window.localStorage.getItem("lang");
-
-    if (typeof storedPrefs === "string") return storedPrefs;
-  }
-
-  return "en";
-};
 
 const Provider = ({ children }: ProviderProps) => {
-  const [language, setLanguage] = useState<string>(getLanguageStoraged || "en");
+  const [language, setLanguage] = useState<string>("en");
 
   useEffect(() => {
-    let item = localStorage.getItem("lang")
-    if (item) {
-      setLanguage(item);
-    }
-    setLanguage("en")
+    setLanguage(localStorage.getItem("lang") ?? "en");
   }, [])
 
   const changeLanguage = (newLang: string) => {

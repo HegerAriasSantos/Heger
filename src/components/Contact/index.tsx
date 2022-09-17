@@ -27,9 +27,6 @@ function FormContato() {
         <a href="https://www.linkedin.com/in/heger-arias-santos/" target="_blank">
           <TecnologieItem title="Linkedin" icon={<RiLinkedinBoxFill />} />
         </a>
-        <a href="mailto:hegel.0218@gmail.com" target="_blank">
-          <TecnologieItem title="Gmail" icon={<RiMailFill />} />
-        </a>
       </section>
     </Container >
   );
