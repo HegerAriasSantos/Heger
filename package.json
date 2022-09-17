@@ -9,7 +9,6 @@
   },
   "dependencies": {
     "@prismicio/client": "^5.1.1",
-    "@types/react": "^18.0.1",
     "aos": "^2.3.4",
     "axios": "^0.21.4",
     "googleapis": "^85.0.0",
@@ -26,7 +25,8 @@
   },
   "devDependencies": {
     "@types/node": "^15.14.9",
-    "@types/react": "^18.0.1",
+    "@types/react": "17.0.14",
+    "@types/react-dom": "17.0.14",
     "@types/styled-components": "^5.1.26",
     "@typescript-eslint/eslint-plugin": "^4.33.0",
     "@typescript-eslint/parser": "^4.33.0",
@@ -43,6 +43,10 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "prettier": "^2.7.1",
     "typescript": "^4.8.3"
+  },
+  "resolutions": {
+    "@types/react": "17.0.14",
+    "@types/react-dom": "17.0.14"
   },
   "config": {
     "commitizen": {
