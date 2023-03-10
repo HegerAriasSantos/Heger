@@ -13,12 +13,18 @@
       "occupation": ["Ocupacion", "Desarrollador de software"],
       "specialty": ["Especialidad", "FullStack"]
     },
-    "Cv": "Ver CV"
+    "Cv": "Ver CV",
+    "cvName": "HegerArias-CV-ES.pdf"
   },
   "education": {
     "title": "Educacion",
     "subTitle": "He realizado Bootcamps y mas...",
     "cards": [
+      {
+        "year": "Enero 2019 - Present",
+        "title": "self-taught",
+        "description": "Soy una persona a la que le encanta aprender nuevas tecnologías y hacer proyectos con dichas tecnologías"
+      },
       {
         "year": "Junio 2020 - Junio 2021",
         "title": "Platzi",
@@ -32,28 +38,33 @@
       {
         "year": "Septiembre 2021 - Febrero 2022",
         "title": "FreeCodeCamp",
-        "description": "Decidí tomar algunos bootcamps en esta plataforma debido a su prestigio y tomé 'Web Responsive Design', 'Javascript Algorithms and Data Structures' y 'Backend Development and Apis'"
-      },
-      {
-        "year": "Enero 2019 - Present",
-        "title": "self-taught",
-        "description": "Soy una persona a la que le encanta aprender nuevas tecnologías y hacer proyectos con dichas tecnologías"
+        "description": "Decidí tomar algunos bootcamps en esta plataforma debido a su prestigio y tomé Web Responsive Design, Javascript Algorithms and Data Structures y Backend Development and Apis"
       }
     ]
   },
   "experience": {
     "title": "Experiencia",
-    "subTitle": "He trabajado tanto como freelancer como en empresas",
+    "subTitle": "He trabajado tanto como freelancer como en empresas de outsourcing",
     "cards": [
       {
-        "year": " Febrero 2021  -  Present",
+        "year": "Febrero 2021  -  Presente",
         "title": "Freelancer",
-        "description": "He realizado varios proyectos freelancer, desde sitios web hasta aplicaciones de escritorio e incluso algoritmos de inteligencia artificial"
+        "description": "He realizado varios proyectos freelancer, desde sitios web hasta aplicaciones de escritorio."
       },
       {
-        "year": " Enero 2022 -  Septiembre 2022",
+        "year": "Enero 2022 -  Septiembre 2022",
         "title": "Caona interactive",
-        "description": "Trabaje en diferentes proyectos con diferentes equipos de trabajo, en los cuales aprendí a trabajar en equipo y a comunicarme con los demás, ademas participe en proyectos desde maquetación hasta grandes proyectos de transacciones financieras"
+        "description": "Trabaje en diferentes proyectos con diferentes equipos de trabajo, en los cuales aprendí a trabajar en equipo y a comunicarme con los demás, ademas participe en proyectos desde maquetación hasta grandes proyectos de transacciones financieras."
+      },
+      {
+        "year": "Septiembre 2022 -  Presente",
+        "title": "Solvex",
+        "description": "Trabaje en un proyecto de administracion de hoteles usado a nivel global de la cadena de hoteles Barcelo, en donde realicé una migracion del sistema actualizando y mejorando los procesos asi aumetando el rendimiento de la misma enormemente."
+      },
+      {
+        "year": "Diciembre 2022 -  Presente",
+        "title": "GBH",
+        "description": "Trabaje en diversos proyectos tanto internos de la empresa como para clientes extranjeros siempre brindando un servicio de calidad y enfocado en proporcionar producto de calidad."
       }
     ]
   },

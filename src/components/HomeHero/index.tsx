@@ -33,8 +33,9 @@ function HomeHero() {
             {'\u007D'}
           </CodeItem>
         </InfosContainer>
-        <button type="button" onClick={() => window.open("https://resume.showwcase.com/HegerAriasSantos792.pdf", "_blank")}>
-          <a>{homeHero.Cv}</a>
+        <button type='button'>
+
+          <a download href={`../../cv/${homeHero.cvName}`}>{homeHero.Cv}</a>
         </button>
       </div>
     </Container>

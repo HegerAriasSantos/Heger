@@ -16,7 +16,7 @@ import 'aos/dist/aos.css';
 export default function Home() {
   const { projects } = ProjectsContext.useContext();
   useEffect(() => {
-    Aos.init({ duration: 1300 });
+    Aos.init({ duration: 1300, once: true });
   }, []);
   return (
     <HomeContainer>

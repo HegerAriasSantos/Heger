@@ -36,11 +36,9 @@ export default function Projeto({ slug }: { slug: string }) {
 
       <main>
         <p>{project.description}</p>
-        {slug !== "todo" ? (<button type="button">
+        <button type="button">
           <a target='_blank' href={project.link}>{project.linkText}</a>
-        </button>) : (
-          ""
-        )}
+        </button>
 
         <button type="button">
           <a target='_blank' href={project.repository}>{project.repositoryText}</a>

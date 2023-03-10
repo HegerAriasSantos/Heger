@@ -1,10 +1,10 @@
-import { AiFillHtml5, } from 'react-icons/ai';
+import { AiFillHtml5 } from 'react-icons/ai';
 import { FaCss3Alt, FaReact, FaNodeJs, FaGit } from 'react-icons/fa';
-import { IoLogoJavascript, IoLogoSass } from 'react-icons/io5';
+import { IoLogoJavascript, IoLogoSass, } from 'react-icons/io5';
 import SectionTitle from '../SectionTitle';
 import TecnologieItem from './Tecnologies';
 import { Container } from './styles';
-import { SiTypescript, SiNestjs, SiMysql, SiCsharp, SiNextdotjs, SiMongodb, SiTailwindcss, SiGithub, SiPhp } from 'react-icons/si';
+import { SiTypescript, SiNestjs, SiNextdotjs, SiMongodb, SiTailwindcss, SiGithub, SiPostgresql } from 'react-icons/si';
 import { LanguageContext } from '../../contexts';
 
 function Tecnologies() {
@@ -22,13 +22,11 @@ function Tecnologies() {
         <TecnologieItem title="React" icon={<FaReact />} />
         <TecnologieItem title="Next" icon={<SiNextdotjs />} />
         <TecnologieItem title="Node" icon={<FaNodeJs />} />
+        <TecnologieItem title="NestJs" icon={<SiNestjs />} />
         <TecnologieItem title="Git" icon={<FaGit />} />
         <TecnologieItem title="Github" icon={<SiGithub />} />
         <TecnologieItem title="MongoDB" icon={<SiMongodb />} />
-        <TecnologieItem title="MySql" icon={<SiMysql />} />
-        <TecnologieItem title="NestJs" icon={<SiNestjs />} />
-        <TecnologieItem title="C#" icon={<SiCsharp />} />
-        <TecnologieItem title="PHP" icon={<SiPhp />} />
+        <TecnologieItem title="PostgreSQL" icon={<SiPostgresql />} />
       </section>
     </Container>
   );
